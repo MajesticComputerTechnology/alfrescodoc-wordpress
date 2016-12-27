@@ -1,0 +1,66 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/*alfresco document list style*/
+
+.alf {
+    font-family: "Roboto", Arial, Tahoma, sans-serif;
+}
+
+.alf__doc {
+    display: flex;
+    padding: 30px 10px;
+}
+
+.alf__image {
+    display: flex;
+    min-width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.alf__image a {
+    border: 3px solid #429446;
+    padding: 5px 8px;
+    background-color: #fbfbfb;
+}
+
+.alf__image img {}
+
+.alf__docInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-right: 30px;
+    white-space: normal;
+}
+
+.alf__docInfo h3 {
+    margin: 0;
+}
+
+.alf__docInfo i {
+    padding-bottom: 10px;
+}
+
+@media (max-width: 48rem) {
+    .alf__doc {
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    .alf__docInfo {
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    .alf__docInfo h3 {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .alf__docInfo p {
+        text-align: justify;
+    }
+}

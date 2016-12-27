@@ -1,0 +1,16 @@
+{
+    "name": "mct/alfrescodoc-wordpress",
+    "description": "Alfresco Document in WordPress",
+    "keywords": ["alfresco", "wordpress", "alfresco wordpress"], 
+    "license": "Apache-2.0",
+    "type": "project",
+    "homepage": "http://www.majestic.com.au",
+    "authors": [
+        {
+            "name": "MajesticComputerTechnology",
+            "homepage": "http://www.majestic.com.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
